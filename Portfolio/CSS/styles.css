@@ -1,0 +1,137 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header{
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+      padding-top: 0.2rem;
+      margin-bottom: 5rem;
+    }
+    
+    header nav ul{
+      list-style-type: none;
+      word-spacing: 2rem;
+    }
+    
+    header li{
+      display: inline-block;
+    }
+    
+    header a{
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    header a:hover {
+      color: white;
+      background-color: #F6BE00;
+    }
+    
+    #about {
+      display: flex;
+      align-items: center; /* Vertical centering */
+      justify-content: center; /* Horizontal centering */
+      text-align: center;
+      width: 100%;
+      margin-bottom: 5rem;
+    }
+    
+    .introduction h1{
+      display: inline-block;
+      font-size: 3rem;
+      text-align: left;
+      vertical-align: middle;
+    }
+    
+    .introduction h3{
+      display: inline-block;
+      width: 15rem;
+      text-align: left;
+      vertical-align: middle;
+    }
+    
+    .introduction img {
+      display: inline-block;
+      height: 13rem;
+      vertical-align: middle;
+    }
+    
+    .introduction h1,
+    .introduction h3,
+    .introduction img {
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
+    
+    #name:hover {
+      color: white;
+      background-color: #F6BE00;
+    }
+    
+    #experience{
+      display: flex;
+      align-items: center; /* Vertical centering */
+      justify-content: center; /* Horizontal centering */
+      text-align: center;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    
+    .exp:hover{
+      color: #2f2f2f;
+      background-color: #F6BE00;
+      opacity: 0.8;
+    }
+    
+    .exp{
+      background-color: #2f2f2f;
+      color: #ffffff;
+      font-family: Poppins;
+      font-weight: 500;
+      text-align: center;
+      width: 17rem;
+      height: 18rem;
+      margin-bottom: 0.1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    
+    #companies{
+      display: flex;
+      align-items: center; /* Vertical centering */
+      justify-content: center; /* Horizontal centering */
+      text-align: center;
+      margin-top: 5rem;
+      margin-bottom: 7rem;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    
+    .company img{
+      width: 8rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    
+    footer{
+      display: flex;
+      text-align: center;
+      background-color: #2f2f2f;
+      color: #ffffff;
+      height: 10rem;
+      align-items: center;
+      justify-content: center; /* Horizontal centering */
+      width: 100%;
+    }
+    
+    footer .info{
+      display: inline-block;
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 1rem;
+    }
